@@ -1,0 +1,12 @@
+{
+  "name": "my-desktop-pdf",
+  "version-string": "0.1.0",
+  "description": "My Desktop PDF - offline Qt6/PDFium reader",
+  "dependencies": [
+    "qtbase",
+    "pdfium",
+    "sqlite3",
+    "spdlog",
+    "gtest"
+  ]
+}

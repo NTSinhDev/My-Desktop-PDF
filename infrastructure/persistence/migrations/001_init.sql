@@ -1,0 +1,13 @@
+CREATE TABLE IF NOT EXISTS recent_files (
+  path TEXT PRIMARY KEY,
+  last_opened_at INTEGER NOT NULL,
+  page_hint INTEGER NOT NULL DEFAULT 0
+);
+
+CREATE TABLE IF NOT EXISTS bookmarks (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  document_path TEXT NOT NULL,
+  page INTEGER NOT NULL,
+  title TEXT NOT NULL,
+  created_at INTEGER NOT NULL
+);
